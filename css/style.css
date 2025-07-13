@@ -1,0 +1,613 @@
+body {
+    background-color: #f9f9f9;
+    padding-top: 0.5px;
+}
+
+.preheader {
+    background-color: #111618;
+    color: #fff;
+    clip-path: polygon(100% 0, 100% 100%, 30px 100%, 0 0, 0 0);
+    padding-top: 15px;
+}
+
+.preheader p {
+    color: #fff;
+    font-weight: 700;
+}
+
+.preheader a {
+    color: #aaacac;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: ease-in-out 0.2s;
+}
+
+ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.preheader ul li a:hover {
+    color: #fff;
+}
+
+span {
+    color: #aaacac;
+}
+
+.logo {
+    padding-top: 10px;
+}
+
+.main-menu a {
+    color: #828282;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.main-menu button {
+    clip-path: polygon(100% 0, 100% 17.5px, 75px 100%, 0 100%, 0 0);
+    border: none;
+    background: linear-gradient(90deg, #5a23f0, #384cf5);
+    color: #fff;
+    font-weight: 00;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.main-menu ul li {
+    padding-top: 15px;
+}
+
+.hero-section {
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    padding: 200px;
+    color: #fff;
+    font-weight: 650;
+}
+
+.hero-section h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.hero-section button {
+    clip-path: polygon(100% 0, 100% 40px, 140px 100%, 0 100%, 0 0);
+    border: none;
+    background: linear-gradient(90deg, #5a23f0, #384cf5);
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.our-services p{
+    padding-top: 80px;
+    font-weight: 700;
+}
+
+.our-services h1 {
+    padding: 0 0 30px 0;
+}
+
+.our-services .service {
+    background-color: #292b2b;
+    color: #fff;
+    margin-bottom: 100px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.our-services .service:hover {
+    background: linear-gradient(400deg, #0e0233, #560085, #1565aa);
+    transform: scale(1.1);
+}
+
+.our-services .service img {
+    left: 50%;
+    transform: translate(8%, 0);
+}
+
+.our-services .service h2 {
+    padding: 50px 0 10px 0;
+    text-align: center;
+}
+
+.our-services .service p {
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+
+.our-services .service button {
+    border: 3px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    left: 50%;
+    margin: 30px;
+    margin-top: 0;
+    margin-left: 32%;
+}
+
+.hiw {
+    background-image: url(../img/works.jpg);
+    background-size: cover;
+    height: 800px;
+}
+
+.hiw img {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -540px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.customers-say {
+    position: relative;
+    top: 150px;
+    padding-bottom: 300px;
+}
+
+.customers-say h2 {
+    color: #343434;
+}
+
+.customers-say h3 {
+    color: #fff;
+    padding-left: 10px;
+}
+
+.customers-say h5 {
+    color: #999;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.customers-say .text {
+    padding: 95% 0 0.1px 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.testimonials img {
+    height: 460px;
+    width: 100% auto;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 20px;
+}
+
+.about-us {
+    background-image: url(../img/works.jpg);
+    background-size: cover;
+    display: inline-flex;
+    width: 100%;
+    background-position: center;
+    color: #fff;
+}
+
+.about-us img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-us .text {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.about-us h1 {
+    padding-top: 10px;
+    border-top: 1px dotted #807987;
+}
+
+.school h5 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.school h1 {
+    text-align: center;
+}
+
+.school-event {
+    background-image: url(../img/school.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.school .school-event h1 {
+    color: #fff;
+}
+
+#demo {
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.timer {
+    padding: 20px;
+    border: solid 1px #fff;
+}
+
+.school h1 {
+    text-transform: uppercase;
+}
+
+.school .info {
+    padding-top: 85px;
+    padding-bottom: 35px;
+}
+
+.school .info button {
+    color: #fff;
+    background: linear-gradient(115deg,#118bfd, #5826ed);
+    position: relative;
+    left: 80%;
+    text-transform: uppercase;
+}
+
+.school .info p {
+    color: #fff;
+}
+
+.school p {
+    font-weight: 600;
+    color: #979797;
+}
+
+.school .school-event h1 {
+    text-transform: uppercase;
+    font-size: 54px;
+}
+
+.school .school-event .protection-type p {
+    color: #eeeeee;
+}
+
+.school .school-event .protection-type button {
+    color: #fff;
+    background: linear-gradient(270deg, #3557f5, #5b21ef);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 30px;
+    margin-bottom: 70px;
+    padding: 15px 30px;
+    border: 0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.contact {
+    background-image: url(../img/contact.jpg);
+    background-size: cover;
+    color: #fff;
+    margin-top: 125px;
+}
+
+.contact h1 {
+    text-transform: uppercase;
+    padding-top: 125px;
+}
+
+.contact h5 {
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+
+.contact .window {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #555;
+    margin-bottom: 115px;
+}
+
+.contact textarea {
+    width: 80%;
+    height: 100px;
+    resize: none;
+    outline: none;
+    margin: 65px 65px 25px 65px;
+    font-weight: 600;
+}
+
+.contact .window .inputs {
+    padding-left: 65px;
+    padding-bottom: 75px;
+}
+
+.contact .window input {
+    outline: none;
+}
+
+.contact .window .input {
+    width: 43%;
+    height: 50px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.contact .window button {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(90deg, #0a95fe, #3060f7);
+    clip-path: polygon(100% 0, 100% 25px, 320px 100%, 0 100%, 0 0);
+}
+
+#git {
+    padding-bottom: 5px;
+    border-bottom: 3px dotted rgba(255, 255, 255, 0.5);
+}
+
+.contact h6 {
+    border-bottom: 3px dotted rgba(255, 255, 255, 0.5);
+}
+
+.pricing {
+    margin-bottom: 50px;
+}
+
+.pricing .pricing-header h1 {
+    color: #343434;
+    text-transform: uppercase;
+    padding-bottom: 70px;
+}
+
+.pricing .pricing-header h5 {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background: #118BFD;
+    color: #118bfd;
+    background-image: -webkit-linear-gradient(45deg, #118bfd 33%, #5826ed 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pricing .pricing-card {
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 50px;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    clip-path: polygon(100% 0, 100% 96%, 90% 100%, 0 100%, 0 0);
+}
+
+.pricing .pricing-card:hover {
+    background: linear-gradient(400deg, #0e0233, #560085, #1565aa);
+    transform: scale(1.1);
+}
+
+.pricing .pricing-card i {
+    padding-top: 65px;
+    font-size: 100px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding-top: 0;
+    padding-top: 65px;
+}
+
+.pricing .pricing-card h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 37px;
+}
+
+
+.pricing .pricing-card h5 {
+    color: #a3a4a4;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.pricing .price {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: inline-flex;
+}
+
+.pricing .price .cent-month .m {
+    position: relative;
+    top: -23px;
+    color: #aaacac;
+}
+
+.pricing .pricing-card ul {
+    padding-left: 20px;
+    display: block;
+}
+
+.benefits {
+    list-style: none;
+    padding: 0;
+}
+
+.benefits li {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.benefits li .inactive {
+    padding-left: 30px;
+    color: #929495;
+}
+
+.benefits li .active {
+    padding-left: 30px;
+}
+
+.benefits li .active::before {
+    font-family: 'FontAwesome';
+    content: "\f00c"; /* Unicode karakter za checkmark ikonu */
+    color: #96ff00;
+    font-size: 20px;
+    margin-right: 10px; /* Dodajte margine prema potrebi */
+    position: absolute;
+    left: 0;
+    top: 35%;
+    transform: translateY(-50%);
+}
+
+.benefits li .inactive::before {
+    content: "\2716"; /* Unicode kod za ikonu (fa-solid fa-check) */
+    font-family: 'Font Awesome 5 Free'; /* Dodajte naziv fonta */
+    color: #929495;
+    font-size: 20px;
+    margin-right: 10px; /* Dodajte margine prema potrebi */
+    position: absolute;
+    left: 0;
+    top: 35%;
+    transform: translateY(-50%);
+}
+
+.benefits .line {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 90%;
+    height: 1px;
+    margin-bottom: 20px;
+}
+
+.benefits button {
+    color: #fff;
+    background: linear-gradient(-60deg,#118bfd, #5826ed);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-transform: uppercase;
+    padding: 12px 65px;
+    clip-path: polygon(100% 0, 100% 70%, 93% 100%, 0 100%, 0 0);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.focus-section {
+    background-image: url(../img/footer.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.focus-section .items {
+    background-image: url(../img/focus-border.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding: 0 0 120px 0;
+    margin-top: 80px;
+}
+
+.focus-section .items img {
+    margin-bottom: 25px;
+}
+
+.focus-section .items h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.focus-section .items h6 {
+    margin-top: 20px;
+}
+
+.focus-section .items button {
+    background-color: transparent;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: #fff 3px solid;
+    color: #fff;
+    margin-top: 65px;
+}
+
+.prefooter img {
+    padding-left: 5px;
+    padding-bottom: 30px;
+}
+
+.prefooter {
+    padding-top: 100px;
+    font-size: 20px;
+    padding-left: 0;
+    padding-bottom: 100px;
+}
+
+.prefooter h4 {
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.prefooter li {
+    padding-bottom: 10px;
+    display: block;
+    padding-left: 20px;
+}
+
+.prefooter li:before {
+    content: "\2022";
+    font-size: 20px;
+}
+
+.prefooter a {
+    margin-right: 10px;
+    position: relative;
+    left: 5%;
+    border: none;
+    font-size: 34px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #111618;
+}
+
+footer h6 {
+    color: #b7b9b9;
+    padding: 30px 0;
+    font-size: 20px;
+}
+
+footer a {
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+footer .links {
+    padding: 30px 0;
+    font-size: 20px;
+    text-align: right;
+}
